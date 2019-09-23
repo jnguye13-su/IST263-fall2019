@@ -1,0 +1,32 @@
+body {
+    background-color: #fffdd0;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+h1 {
+  color: darkblue;
+  margin-left: 40px;
+}
+
+h3 {
+  color: skyblue;
+  margin-left: 40px;
+}
+
+}
+
+h2 strong {
+  color: skyblue;
+  margin-left: 40px;
+}
+
+p {
+    color: #D44500;
+}
+
+nav {
+    background-color: #FF0000;
+    padding: 10px 0;
+    border-radius: 10px;
+}
