@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+img.responsive {
+    widows: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+    font family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
