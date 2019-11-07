@@ -1,0 +1,444 @@
+/* --------------------------APPLIED TO ALL ---------------------------*/
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('Capture_it-webfont.eot');
+    src: url('Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Capture_it-webfont.woff2') format('woff2'),
+         url('Capture_it-webfont.woff') format('woff'),
+         url('Capture_it-webfont.ttf') format('truetype'),
+         url('Capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-color:#e6f7ff;
+	padding:0px;
+	margin:0px;
+}
+/*DON'T ADD ANYTHING ELSE TO INNER */
+.inner{
+	width:1040px;
+}
+/*DON'T ADD ANYTHING ELSE TO INNER */
+.lower{
+	margin-top:80px;
+}
+section{
+	padding-top:80px;
+	margin-top:-80px;
+}
+/* ----------------------------END APPLIED TO ALL ----------------------------*/
+/*------------------------NAVIGATION BAR ----------------------- */
+nav {
+	background-color:#000000;
+	background-color:rgba(51, 51, 255, 0.8);
+	height:79px;
+	position:fixed;
+	z-index:1000;
+	width: 100%;
+	top:0px;
+}
+
+nav a{
+	color:#ffffff;
+	text-decoration:none;
+	padding:10px 14px;
+	display: inline-block; /*taking inline and block properties together*/
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+a:hover{
+	color:#000000;
+	border-bottom:5px solid black;
+}
+.navbar{
+	display:flex;
+	width:1263px;
+	position:relative;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+.dropdown{
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  float:left;
+  overflow:hidden;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover{
+  display: block;
+}
+.search{
+	position:absolute;
+	right:40px;
+	top:40px;
+}
+
+/*----------------------END NAVIGATION BAR-------------------------- */
+
+/* -------------------------ONE SECTION -----------------------------*/
+.one{
+	overflow:hidden;
+}
+.pool{
+	width:1263px;
+}
+.mains{
+	position:absolute;
+	top:50px;
+	left:200px;
+	width:870px;
+	color:;
+	background-color: blue;
+}
+.discover{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*-------------------------END ONE SECTION----------------------------- */
+
+/*---------------------------TWO SECTION--------------------------------*/
+.two{
+	height:500px;
+}
+.label{
+	margin:60px auto;
+	font-size:80px;
+	font-family:'Indie Flower', cursive;
+	width:1263px;
+	text-align:center;
+}
+.circles{
+	display:flex;
+	flex-direction:row;
+}
+.calories,.water,.protein,.carbs{
+	border-radius:60%;
+	height:250px;
+	width:300px;
+}
+.camp{
+	margin:0px 50px 0px 50px;
+	position:relative;
+}
+.kids{
+	margin:0px 50px 0px 0px;
+}
+.zoostuff{
+	margin:0px 50px 0px 0px
+}
+.education{
+	margin:0px 50px 0px 0px;
+}
+.circlewords1{
+	position:relative;
+}
+.circlewordszoo{
+	position:absolute;
+	top:60px;
+	left:70px;
+	margin:30px;
+	font-size:40px;
+	color:#FFFFFF;
+	font-weight:500;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.circlewords2{
+	position:relative;
+}
+.circlewordskids{
+	position:absolute;
+	top:93px;
+	left:65px;
+	font-size:40px;
+	color:#FFFFFF;
+	text-align: center;
+	font-weight:500;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.circlewords3{
+	position:relative;
+}
+.circlewordscool{
+	position:absolute;
+	top:85px;
+	right:80px;
+	font-size:40px;
+	color:#FFFFFF;
+	text-align: center;
+	margin:15px;
+	font-weight:500;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.circlewords4{
+	position:relative;
+}
+.circlewordseducation{
+	position:absolute;
+	top:100px;
+	left:1px;
+	font-size:40px;
+	color:#FFFFFF;
+	text-align: center;
+	font-weight:500;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+/*-----------------------------END TWO SECTION-----------------------------*/
+
+/*-----------------------------THREE SECTION---------------------------------------*/
+.three{
+	height:1000px;
+}
+.features{
+	margin:100px auto 40px auto;
+	font-size:80px;
+	font-family:'Indie Flower', cursive;
+	width:1263px;
+	text-align:center;
+}
+.boxes{
+	display:flex;
+	flex-direction:row;
+	margin: 100px 100px 0px 180px;
+}
+.facts, .workouts, .food{
+	width:294px;
+	height:171px;
+}
+.box1{
+	margin:0px 10px 0px 0px;
+}
+.box2{
+	margin:0px 10px 0px 0px;
+}
+
+.title{
+	background-color:#eeeeee;
+	text-align:center;
+	font-size: 24px;
+	height:55px;
+	padding:10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.description{
+	height: 260px;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+	background-color:lightblue;
+	padding: 10px;
+	color:#ffffff;
+	line-height:1.5;
+
+}
+/*-------------------------------END THREE SECTION-------------------------------------------*/
+/*------------------------------FOUR SECTION -----------------------------------------------*/
+.four{
+	height:600px;
+	margin:0px 0px 0px 50px;
+	width:1213px;
+}
+
+/*---------------------------------END SECTION FOUR ------------------------------------------*/
+/*---------------------------------FIVE SECTION------------------------------------*/
+.five{
+	height:4300px;
+}
+.fifth{
+	position:relative;
+}
+.rightbox{
+	position:absolute;
+	background-color:rgb(71,106,111,0.7);
+	width:400px;
+	height:505px;
+	top:100px;
+	right:550px;
+	padding:20px;
+	border-radius:25px;
+}
+.top{
+	font-size:50px;
+	right:600px;
+	height:50px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.top1{
+	font-size:50px;
+	right:600px;
+	height:50px;
+	font-family: 'Ubuntu', sans-serif;
+	margin:0px 0px 80px 0px;
+}
+.paragraph{
+	font-size: 18px;
+	line-height:1.5;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.exercise{
+	width:1263px;
+}
+/*---------------------------------------END FIVE SECTION---------------------------*/
+
+/*------------------------------------SIX SECTION --------------------------------------*/
+
+.sixth{
+	width:1263px;
+	height:400px;
+}
+.socialmedia{
+	display:flex;
+	flex-direction:row;
+	position:absolute;
+	top: 50px;
+	left:375px;
+}
+.section6{
+	background-color:#cccccc;
+	height:400px;
+	width:1263px;
+	position:relative;
+}
+.facebook, .instagram, .twitter, .youtube{
+	width:100px;
+	height:100px;
+	border: 1px solid black;
+	border-radius: 30px;
+	text-align:center;
+	margin:10px;
+	padding-top: 15px;
+}
+.facebook:hover{
+	border:1px solid blue;
+}
+.instagram:hover{
+	border:1px solid blue;
+}
+.twitter:hover{
+	border:1px solid blue;
+}
+.googleplus:hover{
+	border:1px solid blue;
+}
+.youtube:hover{
+	border:1px solid blue;
+}
+.information{
+	display:flex;
+	flex-direction:row;
+	position:absolute;
+	top:230px;
+	left:250px;
+}
+.accessibility, .careers, .newsroom, .contactus, .termsofuse, .privacypolicy{
+	width:100px;
+	height:100px;
+	text-align:center;
+	margin:10px;
+	padding: 45px auto;
+}
+.accessibility:hover{
+	color:blue;
+}
+.careers:hover{
+	color:blue;
+}
+.newsroom:hover{
+	color:blue;
+}
+.contactus:hover{
+	color:blue;
+}
+.termsofuse:hover{
+	color:blue;
+}
+.privacypolicy:hover{
+	color:blue;
+}
+.moreinfo{
+	position:absolute;
+	top:360px;
+	left:180px;
+	text-align:center;
+	width:900px;
+}
+/*---------------------------------END SIX SECTION--------------------------------------*/
+/*----------------------------------SECTION SEVEN ------------------------------------*/
+.seven{
+	height:1680px;
+}
+.top2{
+	font-size:50px;
+	right:600px;
+	height:50px;
+	font-family: 'Ubuntu', sans-serif;
+	margin:0px 0px 120px 0px;
+}
+.rightbox1{
+	position:absolute;
+	background-color:rgb(71,106,111,0.7);
+	width:400px;
+	height:605px;
+	top:100px;
+	right:550px;
+	padding:20px;
+	border-radius:25px;
+}
+.rightbox2{
+	position:absolute;
+	background-color:rgb(71,106,111,0.7);
+	width:400px;
+	height:680px;
+	top:80px;
+	right:550px;
+	padding:20px;
+	border-radius:25px;
+}
+/*--------------------------------END SECTION SEVEN ----------------------------------*/
+/*----------------------------DIET PAGE ------------------------------------*/
+/*------------------------------START TO DIET SECTION ONE ------------------*/
+.one1{
+	height:600px;
+}
+.first{
+	position:relative;
+}
+.mains1{
+	position:absolute;
+	top:200px;
+	left:40px;
+}
+.title1{
+	width:1263px;
+	height:600px;
+}
+.planyourvisit{
+	font-size:60px;
+	width:400px;
+	font-family: 'Roboto', sans-serif;
+	color:#ffffff;
+}
+/*------------------------------END TO DIET SECTION ONE ------------------*/
