@@ -271,7 +271,7 @@ a:hover{
 	position:absolute;
 	background-color:rgb(71,106,111,0.7);
 	width:400px;
-	/*height:505px;*/
+	height:505px;
 	top:100px;
 	right:550px;
 	padding:20px;
@@ -399,7 +399,7 @@ a:hover{
 	position:absolute;
 	background-color:rgb(71,106,111,0.7);
 	width:400px;
-	/*height:605px;*/
+	height:605px;
 	top:100px;
 	right:550px;
 	padding:20px;
@@ -409,7 +409,7 @@ a:hover{
 	position:absolute;
 	background-color:rgb(71,106,111,0.7);
 	width:400px;
-	/*height:680px;*/
+	height:680px;
 	top:80px;
 	right:550px;
 	padding:20px;
