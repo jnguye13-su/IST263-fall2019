@@ -257,7 +257,7 @@ a:hover{
 	font-family: 'Ubuntu', sans-serif;
 	background-color:lightblue;
 	padding: 10px;
-	color:#000000;
+	columns: #000000;;
 	line-height:1.5;
 
 }
@@ -464,5 +464,6 @@ a:hover{
 	font-weight: bolder;
 }
 /*------------------------------END TO DIET SECTION ONE ------------------*/
+
 
 
