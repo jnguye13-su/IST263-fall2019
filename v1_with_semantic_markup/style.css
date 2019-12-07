@@ -20,11 +20,11 @@ body{
 	width:1040px;
 }
 /*DON'T ADD ANYTHING ELSE TO INNER */
-.lower{
+/*.lower{
 	margin-top:80px;
-}
+}*/
 section{
-	padding-top:80px;
+	 padding-top:80px;
 	margin-top:-80px;
 }
 /* ----------------------------END APPLIED TO ALL ----------------------------*/
@@ -99,26 +99,26 @@ a:hover{
 	top:50px;
 	left:200px;
 	width:870px;
-	color:;
 	background-color: blue;
 }
-.firstswimtitle{
-	font-size: 40px;
-	font-family: 'Roboto', sans-serif;
-}
+
 
 /*-------------------------END ONE SECTION----------------------------- */
 
 /*---------------------------TWO SECTION--------------------------------*/
 .two{
-	height:500px;
+	/* height:500px; */
 }
 .label{
 	margin:60px auto;
-	font-size:80px;
+	font-size:60px;
 	font-family:'Indie Flower', cursive;
 	width:1263px;
 	text-align:center;
+	color:black!important;
+}
+.label h3 {
+	font-size:65px;
 }
 .circles{
 	display:flex;
@@ -155,6 +155,7 @@ a:hover{
 	font-weight:500;
 	text-shadow: 2px 2px #000000;
 	font-family: 'Ubuntu', sans-serif;
+	background-color:rgba(0, 0, 255, 0.3);
 
 }
 .circlewords2{
@@ -170,6 +171,7 @@ a:hover{
 	font-weight:500;
 	text-shadow: 2px 2px #000000;
 	font-family: 'Ubuntu', sans-serif;
+	background-color:rgba(0, 0, 255, 0.3);
 
 }
 .circlewords3{
@@ -178,7 +180,7 @@ a:hover{
 .circlewordsprotein{
 	position:absolute;
 	top:85px;
-	right:80px;
+	right:85px;
 	font-size:40px;
 	color:#FFFFFF;
 	text-align: center;
@@ -186,6 +188,7 @@ a:hover{
 	font-weight:500;
 	text-shadow: 2px 2px #000000;
 	font-family: 'Ubuntu', sans-serif;
+	background-color:rgba(0, 0, 255, 0.3);
 
 }
 .circlewords4{
@@ -201,6 +204,7 @@ a:hover{
 	font-weight:500;
 	text-shadow: 2px 2px #000000;
 	font-family: 'Ubuntu', sans-serif;
+	background-color:rgba(0, 0, 255, 0.3);
 
 }
 
@@ -216,6 +220,9 @@ a:hover{
 	font-family:'Indie Flower', cursive;
 	width:1263px;
 	text-align:center;
+}
+.features h3{
+	font-size: 80px;
 }
 .boxes{
 	display:flex;
@@ -254,7 +261,7 @@ a:hover{
 /*-------------------------------END THREE SECTION-------------------------------------------*/
 /*------------------------------FOUR SECTION -----------------------------------------------*/
 .four{
-	height:600px;
+	/*height:600px;*/
 	margin:0px 0px 0px 50px;
 	width:1213px;
 }
@@ -280,21 +287,28 @@ a:hover{
 .top{
 	font-size:50px;
 	right:600px;
-	height:50px;
+	/*height:50px;*/
 	font-family: 'Ubuntu', sans-serif;
+	color: #FFFFFF;
 
+}
+.top h4{
+	font-weight: bolder;
 }
 .top1{
 	font-size:50px;
 	right:600px;
-	height:50px;
 	font-family: 'Ubuntu', sans-serif;
-	margin:0px 0px 80px 0px;
+	color: #FFFFFF;
+}
+.top1 h4{
+	font-weight: bolder;
 }
 .paragraph{
 	font-size: 18px;
 	line-height:1.5;
 	font-family: 'Ubuntu', sans-serif;
+	color: #FFFFFF;
 
 }
 .exercise{
@@ -305,8 +319,8 @@ a:hover{
 /*------------------------------------SIX SECTION --------------------------------------*/
 
 .sixth{
-	width:1263px;
-	height:400px;
+	/* width:1263px;
+	height:400px; */
 }
 .socialmedia{
 	display:flex;
@@ -391,9 +405,12 @@ a:hover{
 .top2{
 	font-size:50px;
 	right:600px;
-	height:50px;
 	font-family: 'Ubuntu', sans-serif;
-	margin:0px 0px 120px 0px;
+	color:#FFFFFF;
+	
+}
+.top2 h4{
+	font-weight: bolder;
 }
 .rightbox1{
 	position:absolute;
@@ -419,14 +436,14 @@ a:hover{
 /*----------------------------DIET PAGE ------------------------------------*/
 /*------------------------------START TO DIET SECTION ONE ------------------*/
 .one1{
-	height:600px;
+	/* height:600px; */
 }
 .first{
 	position:relative;
 }
 .mains1{
 	position:absolute;
-	top:200px;
+	top:300px;
 	left:40px;
 }
 .title1{
@@ -439,4 +456,9 @@ a:hover{
 	font-family: 'Roboto', sans-serif;
 	color:#ffffff;
 }
+.swimtitle h1{
+	font-size:80px;
+	font-weight: bolder;
+}
 /*------------------------------END TO DIET SECTION ONE ------------------*/
+
