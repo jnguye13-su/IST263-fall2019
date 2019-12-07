@@ -88,6 +88,9 @@ a:hover{
 /*----------------------END NAVIGATION BAR-------------------------- */
 
 /* -------------------------ONE SECTION -----------------------------*/
+.firstswimtitle{
+	color: #FFFFFF;
+}
 .one{
 	overflow:hidden;
 }
