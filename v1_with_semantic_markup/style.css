@@ -1,4 +1,3 @@
-/* --------------------------APPLIED TO ALL ---------------------------*/
 @font-face {
     font-family: 'capture_itregular';
     src: url('Capture_it-webfont.eot');
@@ -15,20 +14,16 @@ body{
 	padding:0px;
 	margin:0px;
 }
-/*DON'T ADD ANYTHING ELSE TO INNER */
+
 .inner{
 	width:1040px;
 }
-/*DON'T ADD ANYTHING ELSE TO INNER */
-/*.lower{
-	margin-top:80px;
-}*/
+
 section{
 	 padding-top:80px;
 	margin-top:-80px;
 }
-/* ----------------------------END APPLIED TO ALL ----------------------------*/
-/*------------------------NAVIGATION BAR ----------------------- */
+
 nav {
 	background-color:#000000;
 	background-color:rgba(51, 51, 255, 0.8);
@@ -85,9 +80,6 @@ a:hover{
 	top:40px;
 }
 
-/*----------------------END NAVIGATION BAR-------------------------- */
-
-/* -------------------------ONE SECTION -----------------------------*/
 .firstswimtitle{
 	color: #FFFFFF;
 }
@@ -105,10 +97,6 @@ a:hover{
 	background-color: blue;
 }
 
-
-/*-------------------------END ONE SECTION----------------------------- */
-
-/*---------------------------TWO SECTION--------------------------------*/
 .two{
 	/* height:500px; */
 }
@@ -210,13 +198,22 @@ a:hover{
 	background-color:rgba(0, 0, 255, 0.3);
 
 }
+.tabletitle{ 
+	text-align: center;
+}
 .row{
 	width: 1080px;
 }
+.row1{
+	width: 1080px;
+}
+.row2{
+	width: 1080px;
+}
+.row3{
+	width: 1080px;
+}
 
-/*-----------------------------END TWO SECTION-----------------------------*/
-
-/*-----------------------------THREE SECTION---------------------------------------*/
 .three{
 	height:1000px;
 }
@@ -264,16 +261,13 @@ a:hover{
 	line-height:1.5;
 
 }
-/*-------------------------------END THREE SECTION-------------------------------------------*/
-/*------------------------------FOUR SECTION -----------------------------------------------*/
+
 .four{
 	/*height:600px;*/
 	margin:0px 0px 0px 50px;
 	width:1213px;
 }
 
-/*---------------------------------END SECTION FOUR ------------------------------------------*/
-/*---------------------------------FIVE SECTION------------------------------------*/
 .five{
 	height:4300px;
 }
@@ -320,10 +314,6 @@ a:hover{
 .exercise{
 	width:1263px;
 }
-/*---------------------------------------END FIVE SECTION---------------------------*/
-
-/*------------------------------------SIX SECTION --------------------------------------*/
-
 .sixth{
 	/* width:1263px;
 	height:400px; */
@@ -403,8 +393,7 @@ a:hover{
 	text-align:center;
 	width:900px;
 }
-/*---------------------------------END SIX SECTION--------------------------------------*/
-/*----------------------------------SECTION SEVEN ------------------------------------*/
+
 .seven{
 	height:1680px;
 }
@@ -438,9 +427,6 @@ a:hover{
 	padding:20px;
 	border-radius:25px;
 }
-/*--------------------------------END SECTION SEVEN ----------------------------------*/
-/*----------------------------DIET PAGE ------------------------------------*/
-/*------------------------------START TO DIET SECTION ONE ------------------*/
 .one1{
 	/* height:600px; */
 }
@@ -466,7 +452,7 @@ a:hover{
 	font-size:80px;
 	font-weight: bolder;
 }
-/*------------------------------END TO DIET SECTION ONE ------------------*/
+
 
 
 
