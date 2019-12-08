@@ -210,6 +210,9 @@ a:hover{
 	background-color:rgba(0, 0, 255, 0.3);
 
 }
+.row{
+	width: 1080px;
+}
 
 /*-----------------------------END TWO SECTION-----------------------------*/
 
@@ -464,6 +467,7 @@ a:hover{
 	font-weight: bolder;
 }
 /*------------------------------END TO DIET SECTION ONE ------------------*/
+
 
 
 
